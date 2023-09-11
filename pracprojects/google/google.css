@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+
+/*nav*/
+.edit a svg{
+    width: 40px;
+    height: 40px;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+.nav {
+    gap: 10px;
+    display: flex;
+    padding: 8px;
+    
+}
+
+.nav ul{
+    padding-block: 10px;
+    gap: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding-left: 85%;
+}
+
+/*content*/
+
+.google{
+    display: block;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding-top: 107px;
+}
+
+.logo {
+    width: 315px;
+    height: 127px;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-inline: 36%;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-top: 7px;
+    border: 0px;
+}
+
+input:active, 
+.input:active{
+    border: 0px;
+}
+
+.whole a{
+    display: flex;
+}
+
+.whole-edit{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.button span a{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 4px;
+    background-color: lightgrey;
+    color: black;
+    padding: 8px;
+}
+
+.fam-link{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 35px;
+}
+
+.fam-link-logo{
+    width: 35px;
+    height: 35px;
+}
+
+.link {
+    padding-block: 7px;
+}
+
+.offer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.lang a{
+    text-decoration: none;
+    padding: 3px;
+}
+
+/*footer*/
+
+.footer{
+    display: block;
+    margin-top: 24%;
+}
+
+.country{
+    background-color: grey;
+    border-top: 1px solid lightgrey;
+    padding: 20px;
+    padding-left: 30px ;
+}
+
+.lower{
+    display: flex;
+    border-top: 1px solid lightgrey;
+    background-color: grey;
+}
+
+.lower a{
+    text-decoration: none;
+    color: black;
+}
+
+.about{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.terms{
+    display: flex;
+    margin-left: 62%;
+    gap: 50px;
+    padding: 20px;
+}

@@ -1,0 +1,401 @@
+/*css for zalora*/
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/*nav*/
+.zalora-logo{
+    width: 130px;
+    height: 20;
+    fill: white;
+}
+.nav-cap{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: black;
+    padding: 15px 15% 10px 15%;
+}
+.nav-cap a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    color: white;
+}
+
+.svg-edit{
+    fill: white;
+}
+
+.srch input{
+    width: 250px;
+    height: 20px;
+}
+
+/*promo*/
+.promo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10% 10px 10%;
+    gap: 30px;
+}
+
+.promo ul{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.promo ul li{
+    list-style: none;
+}
+
+.promo ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.off{
+    font-size: 11px;
+    padding: 12px;
+    word-spacing: 2px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}
+
+/*ad*/
+
+.ad{
+    display: flex;
+    justify-content: center;
+}
+
+/*cat*/
+.cat img{
+    width: 310px;
+    height: 360px;
+}
+
+.cat {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    gap: 25px;
+}
+
+.cat-long {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+/*new*/
+
+.arrival {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+
+.edit-ctr{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+/*more*/
+
+.more{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+
+.title-more{
+    display: flex;
+    justify-content: center;
+}
+
+.about{
+    display: block;
+    justify-content: center;
+    margin-inline: 25%;
+    margin-top: 35px;
+    font-size: 13px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+/*brands nad searches*/
+
+.left-list{
+    display: flex;
+    margin-top:10px;
+    gap: 100px;
+}
+
+.right-list{
+    display: flex;
+    margin-top:10px;
+    gap: 100px;
+}
+
+.brands{
+    margin-bottom: 50px;
+}
+
+.brands a{
+    display: block;
+    text-decoration: none;
+    color: grey;
+    padding: 3px;
+}
+
+.brands-searches{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 150px;
+}
+
+/*info*/
+
+.info{
+    display: flex;
+}
+
+.company span{
+    display: block;
+    margin-top: 10px;
+}
+
+.flags{
+    display: flex;
+    gap: 20px;
+}
+
+.l-flags a{
+    display: block;
+    gap: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.r-flags a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.pay{
+    display: flex;
+    gap: 20px;
+}
+
+.l-pay span{
+    display: block;
+    margin-top: 10px;
+}
+
+.r-pay span{
+    display: block;
+    margin-top: 10px;
+}
+
+.provider span{
+    display: block;
+    margin-top: 10px;
+}
+
+.sec-sys{
+    margin-left: 150px;
+}
+
+.sec-sys ul li{
+    margin-top: 10px;
+    list-style-image: url(./checklist.PNG);
+}
+
+hr{
+    margin-inline: 25%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-top{
+    display: flex;
+    gap: 10px;
+    padding: 5% 15% 5% 15%;
+    margin-top: 50px;
+}
+
+.foot-title svg{
+    width: 240px;
+    height: 40px;
+}
+
+.foot-zalora span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.foot-zalora{
+    width: 50%;
+}
+
+.list-cs a{
+    display: block;
+    text-decoration: none;
+    color: lightgrey;
+    margin-top: 15px;
+}
+
+.list-cs{
+    margin-top: 30px;
+}
+
+.cs{
+    width: 20%;
+}
+
+.list-au a{
+    display: block;
+    text-decoration: none;
+    color: lightgrey;
+    margin-top: 15px;
+}
+.list-au{
+    margin-top: 30px;
+}
+
+.au{
+    width: 20%;
+}
+
+
+.sub-high{
+    color: yellow;
+}
+
+.sub .row1{
+    margin-bottom: 50px;
+}
+.sub .row2 span{
+    display: block;
+}
+.sub .row2 span input{
+    width: 50%;
+    height: 40px;
+    margin-block: 5px;
+}
+.sub .row3{
+    margin: 15px 0px;
+}
+.sub .row3 a{
+    border: 1px solid white;
+    padding: 10px 50px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/*botfoot*/
+
+.media{
+    display: flex;
+    margin-inline: 15%;
+    gap: 45%;
+}
+.med1-list{
+    margin-top: 10px;
+}
+.med1-list a{
+    margin-right: 15px;
+}
+
+.dl-app a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.dl-app{
+    margin-top: 25px;
+}
+
+/*pub*/
+
+.pub{
+    display: flex;
+    gap: 60%;
+    margin:15px 15%;
+    padding: 15px 0px 50px 0px;
+}
+
+.ques span{
+    display: block;
+    margin-top: 15px;
+}
+
+.ques span a{
+    text-decoration: none;
+    color: white;
+margin-right: 10px;
+}
+
+.ques span a:first-child{
+    border-right: 1px solid white;
+    padding-right: 13px;
+}
+
+.terms span{
+    display: block;
+}
+
+.terms{
+    text-align: right;
+}
+.tos a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.tos{
+    margin-bottom: 15px;
+}
+.auth{
+    margin-right: 20px;
+}

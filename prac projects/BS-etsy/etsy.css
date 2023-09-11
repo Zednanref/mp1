@@ -1,0 +1,164 @@
+/**/
+
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.input-group {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.input-group input {
+    border-radius: 100px;
+}
+
+.input-group span {
+    border-radius: 0px 100px 100px 0px;
+}
+
+svg {
+    width: 25px;
+    height: 25px;
+}
+
+.top-nav a {
+    margin-top: 15px;
+}
+
+/*bot-nav*/
+.nav-2 {
+    margin-inline: 15%;
+}
+
+.nav-2 a {
+    font-size: 15px;
+}
+
+/*gift cat*/
+
+.cat {
+    font-size: 50px;
+    margin-left: 9%;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 9%;
+}
+
+.cards img {
+    width: 200px;
+    height: 160px;
+}
+
+/*what is etsy?*/
+
+.info h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.info p {
+    display: flex;
+    justify-content: center;
+}
+
+.info-row .col2 {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.info-row .col1 {
+    margin-top: 110px;
+}
+
+.info-des {
+    margin-bottom: 10px;
+}
+
+/*follow up*/
+
+.question {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.mail p {
+    display: flex;
+    justify-content: center;
+}
+
+.mail .input-group {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.con-end {
+    margin-top: 100px;
+}
+
+/*footer*/
+
+.foot .col a {
+    display: block;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.foot .col {
+    display: block;
+    text-align: left;
+    color: white;
+}
+
+.foot {
+    background-color: lightblue;
+}
+
+.foot .container {
+    margin: 0% 15% 0% 15%;
+    padding-block: 2%;
+}
+
+.foot .media{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.foot .etsy-app{
+    margin-top: 80px;
+}
+
+.foot .etsy-app button{
+    border-radius: 50px;
+}
+
+.bot-footer{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+.terms{
+    display: flex;
+    font-size: 15px;
+    color: white;
+    gap: 30px;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.nat{
+    margin-top: 8px;
+}

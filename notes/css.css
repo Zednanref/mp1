@@ -1,0 +1,32 @@
+
+html {
+        font-size: 22px;
+}
+body {
+        color: white; background-color: black;
+}
+        
+a{
+        color:white
+}
+
+a:visited {
+        color: pink;
+}
+
+a:hover {
+        color: beige;
+}
+
+img{
+        background-color: white; color: black;
+}
+
+table, tr, th, td, caption{
+        border: .01rem solid white;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: .5rem;
+}
+
+ 

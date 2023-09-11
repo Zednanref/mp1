@@ -1,0 +1,87 @@
+<SELECTORS
+selector
+.selector to class = selector
+#selector to id
+selector, selector for group edit
+selector selector for editing the second selector given inside the first
+ * = everything/universal/each one
+>
+
+<EDITS
+(coolors.co) website generating colors 
+font-size:px/rem(refers to default edit))/em(doubling what is set)
+color:color or rgb(0,0,0) or rgba(0,0,0,0) a for transparancy or #0000ab(colorcode)
+border:px solid/dashed/dotted/double color
+outline:px(second border)
+outline-offset:px(to move)
+border-top/right/bottom/left
+border-radius:px(half the value)
+background-color:color/background:color
+width:px/%(percentage)/ch(limit character)/vw(viewport just like percentage)
+padding(more like a margin)
+box-sizing: border-box(no gaps)
+margin:px (to move content)/ auto(to center)
+>
+
+<
+typography
+text-decoration:overline/underline/line-through
+text-transform:capitalize/lowercase/uppercase
+text-align:left/right/justify
+text-indent(space in beginning):px
+line-height(space between sentences):
+letter-spacing:
+word-spacing:
+font-weight(bold size):
+font-style(font-family is better/only 1 style no back up):(words style)
+font-family:(word style)
+@import url(put link);(to link a front style from web)
+fonts.google.com
+can put link in html before style link
+>
+
+<
+styling links
+text-decoration(to make link outstand):
+cursor:pointer(click changes to pointer when hovered)
+a {color}
+a:visited{color} 
+a:hover, a:focus{color} can highlight add background color
+a:active(color)
+should be in order
+opacity:.1
+changes transparancy of the word
+display: block
+wraps link when inside something
+>
+
+<
+styling list
+list-style-type:lower-alpha/decimal/decimal-leading-zero
+lower-alpha(lowercaseletter)disc(bullet/dot)upper-roman(capsromannumeral)decimal(default)none(nothing)square(square bullet)
+can add link from folder
+text-align:center(center)
+list-style-position: inside(moved with list in center)/outside(moved outer in left)
+color:
+line-height:
+list-style-image: url('../(clickimage)')
+image from file to be change as bullet
+list-style:style url('../(clickimage)')
+can edit with type,position and image
+add inside/outside
+square for back up
+ul/ol:nth-child(1/odd/even) {}
+nthchild specify what list to edit
+ul/ol/nonebutbelow list::marker {color/font-size/font-family/content:"word"}
+content can change the list tag with word
+>
+
+<
+Display
+
+>
+
+<NOTE
+last given edit is always followed
+
+>

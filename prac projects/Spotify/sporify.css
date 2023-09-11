@@ -1,0 +1,27 @@
+*, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*nav*/
+.edit {
+    width: 150px;
+    fill: white;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 0px 20% 0px 20%;
+}
+
+.info {
+    display: flex;
+}
+
+.right {
+    display: flex;
+}
+

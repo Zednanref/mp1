@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>html notes</title>
+        <meta charset="UTF-8">
+        <meta name="jose fernandez" content="coder">
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" href="html logo.png">
+
+
+    </head>
+
+
+    <!--h header
+    p paragraph 
+    hr horizontal rule
+    br linebreak-->
+
+<body>
+    
+<header>
+<section id="btext">
+    <h>header</h>
+    <p>paragraph</p>
+
+    <hr>
+
+    <h>2nd header</h>
+    <p>paragraph</p>
+    <br>linebreak
+
+<!--
+    &lt; lest than
+    &gt; greater than
+    &copy; copyright
+    &nbsp; space
+-->
+
+     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;fonts&lt; and basic      unreadable &copy;code basic text</h1>
+
+ <!--
+        em emphasize
+        strong strong
+ -->
+    <p> 
+        <em>simple</em><strong> fonts</strong>
+    </p>
+
+    <!--
+        abbr title abbreviation or initials in text
+        address element
+    -->
+    <h>
+        <abbr title="abbreviation">abbr</abbr>
+    </h>
+    <address>among balay</address>
+</section>
+</header>
+
+    <hr>
+<main>
+<section id="list">
+    <!--
+        ol ordered list
+        ul unorderedd list
+        li list
+    -->
+    <h1>header</h1>
+    <ol start="number" reversed>
+        <li value="number"><p>paragraph</p></li>
+        <li><p>paragraph</p></li>
+        <li><p>paragraph</p></li>
+    </ol>
+
+    <h1>header</h1>
+    <ul>
+        <li>paragraph</li>
+        <li>paragraph</li>
+        <li>paragraph</li>
+    </ul>
+
+    <!--
+        dl discription list
+        dt discription terms
+        dd discription details
+    -->
+
+    <h1>
+        <dl>
+              <dt>description term</dt>
+              <dd>description details</dd>
+        </dl>
+    </h1>
+</section>
+
+    <hr>
+
+<section id="link">
+    <!--
+        link href links file to file code
+        a href/anchor tag links value to a file
+        section for sectioning or dividing contents
+        nav comes with section for navigatation
+    -->
+
+    <p>where i learn <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE">html</a></p>    
+
+    <nav aria-label="primary-navigation">
+        <ul>
+            <li><a href="#btext">basic text notes</a></li>
+            <li><a href="#list"> list notes</a></li>
+            <li><a href="#link">link notes</a></li>
+        </ul>
+    </nav>
+
+    <!--
+        a to link files or website
+        add download to download upon click
+        add target _blank to open in new tab
+    -->
+
+    <p>download <a href="html logo.png" download>html5 logo</a></p>
+    <p>my <a href="mailto:random@email.com"> emmail address</a></p>
+    <p>my <a href="tel:1234567890"> phone no</a></p>
+    <p>where i learned <a href="https://www.youtube.com/watch?v=kUMe1FH4CHE" target="_blank">html5</a></p>
+
+    <hr>
+
+    <!--
+        img to add image
+        alt for reserve incase user cant view img
+        title see title when hovered
+        height change height
+        width change width
+        loading how image shows up 
+        eager by default
+        lazy loads when about to show up
+        figure below image
+        figcaption more like title for the image
+
+    -->
+
+    <img src="html logo.png" alt="html logo" title="html" width="512" height="512" loading="lazy">
+    <figure>
+        <figcaption>HTML LOGO</figcaption>
+        <p>hi
+            <code>&lt;h1&gt;HTML&lt;h1&gt;</code>
+        </p>
+    </figure>
+
+</section>
+</main>
+
+<hr>
+
+<!--header, main, footer for organizing
+    nav should be more than 1
+    add aria-label to label nav
+    article alt for section depends how its used in the website
+    aside
+    details
+    summary creates hide and show bar
+    paragraph
+    mark to highlight
+    time guide for IDE
+    section, article, div, span use to wrap text
+-->
+
+<section id="semantictags">
+    <nav>
+        <ul>
+            <li><a href="#btext">basic text notes</a></li>
+            <li><a href="#list"> list notes</a></li>
+            <li><a href="#link">link notes</a></li>
+            <li><a href="/html.html">home</a></li>
+        </ul>
+    </nav>
+</section>
+
+<article>
+    <aside>
+        <details>
+            <summary>what is this?</summary>
+            <p>my notes for html</p>
+        </details>
+    </aside>
+</article>
+    <h1><time datetime="10:00">10am</time></h1>
+<section></section>
+<article></article>
+<div></div>
+<span></span>
+
+<hr>
+
+<!--table to create table
+    caption for table title
+    tr table row
+    td table data
+    add rowspan takes 2 column
+    add colspan takes 2 row
+    thead, tbody, tfoot to organize
+    scope guide for IDE
+    add row for row guide
+    add col for column guide
+
+-->
+    <table>
+        <caption>sample table</caption>
+        <tr>
+            <th colspan="2">a</th>
+            <th colspan="2">b</th>
+        </tr>
+        <tr>
+            <td rowspan="">a</td>
+            <td colspan="">b</td>
+            <td>c</td>
+            <td>d</td>
+
+        </tr> 
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!--
+        form
+        add action to send the data on that link
+        add method then get
+        label is like a print
+        add for to label
+        input creates space to write input
+        add type and choose what type of input for
+        add name for the info to be iddentified in the server
+        add placeholder to put transparent word in the textbox
+        add autocomplete and turn on to remember some data history
+        add required to require the user
+        add autofocus the let user prioratize that section
+    -->
+
+    <article>
+        <h2> forms and input</h2>
+        <p>samples</p>
+
+        <form action="where you want to send the the info/website" method="get">
+
+            <p>
+            <label for="firstname">firstname:</label>
+            <input type="text" name="firstname" id="firstname"
+            placeholder="firstname" autocomplete="on" required>
+            </p>
+
+            <p>
+            <label for="lastname">lastname:</label>
+            <input type="text" name="lastname" id="lastname"
+            placeholder="lastname" autocomplete="on" required>
+            </p>
+
+            <p>
+            <label for="password">password:</label>
+            <input type="text" name="password" id="password"
+            placeholder="password" required>
+            </p>
+
+            <p>
+                <label for="phone">phone no.:</label>
+                <input type="tel" name="phone" id="phone" placeholder="1234567890" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" required>
+            </p>
+            <p>
+                <label for="pcs">how many peices?</label>
+                <input type="number" name="pcs" id="pcs" min="1" max="10" step="1" value="1">
+            </p>
+            <!--
+                put selected to put a value in default
+                optgroup to organize options
+                add label
+                optgroup optional or if needed only
+            -->
+            <p>
+                <label for="vape">vape</label>
+
+                <select name="vape" id="vape">
+
+                <optgroup label="group 1">
+                    <option value="option a">option a</option>
+                    <option value="option b">Option b</option>
+                </optgroup>
+
+                <optgroup label="group 2">
+                    <option value="option c">option c</option>
+                    <option value="option d">option d</option>
+                    <option value="option e">option e</option>
+                </optgroup>
+
+                </select>
+            </p>
+
+            <!--
+                datalist to allow search in the input bar
+            -->
+
+            <p>
+                <label for="flavors">flavors:</label>
+                <input type="text" id="flavor" name="flavor" list="flavors">
+                <datalist id="flavors">
+                    <option value="straw">option1</option>
+                    <option value="grape">option2</option>
+                    <option value="water">option3</option>
+                    <option value="lychee">option4</option>
+                </datalist>
+            </p>
+
+            <!--
+                should have the same name to not allow to select multiple option
+            -->
+                <fieldset>
+                    <legend>title</legend>
+                    <p>
+                    <input type="radio" name="example" id="example1" value="example1">
+                    <label for="example1">example1</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="example" id="example2" value="example2">
+                    <label for="example2">example2</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="example" id="example3" value="example3">
+                    <label for="example3">example3</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="example" id="example4" value="example4">
+                    <label for="example4">example4</label>
+                    <p>
+                    <input type="radio" name="example" id="example5" value="example5">
+                    <label for="example5">example5</label>
+                 </p>
+                </fieldset>
+
+                    
+                <fieldset>
+                    <legend>examples</legend>
+                        <p>
+                        <input type="checkbox" name="example" id="example1" value="example1">
+                        <label for="example1">example1</label>
+                        </p>
+                        <p>
+                        <input type="checkbox" name="example" id="example2" value="example2">
+                        <label for="example2">example2</label>
+                        </p>
+                        <p>
+                        <input type="checkbox" name="example" id="example3" value="example3">
+                        <label for="example3">example3</label>
+                        </p>
+                        <p>
+                        <input type="checkbox" name="example" id="example4" value="example4">
+                        <label for="example4">example4</label>
+                        <p>
+                        <input type="checkbox" name="example" id="example5" value="example5">
+                        <label for="example5">example5</label>
+                         </p>
+                </fieldset>
+
+                <fieldset>
+                    <p>
+                    <label for="comment">comment</label>
+                    </p>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <p>
+                    <input type="submit" value="submit">
+                    <button type="submit">submit</button>
+                </p>
+
+                <p>
+                    <button type="reset">reset</button>
+                </p>
+
+                <p>
+                    <button type="submit" formaction="https:/bin.org/post" formmethod="post">submit</button>
+                </p>
+        </form>
+
+    </article> 
+
+
+
+</body>
+</html>
+ 
