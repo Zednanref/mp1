@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*nav*/
+nav div{
+    background-color: black;
+    font-size: 20px;
+    gap: 50%;
+}
+
+.navbar{
+    text-align: center;
+    padding: 0px;
+}
+
+.container-fluid{
+    padding-inline: 15%;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+ul{
+    gap: 25px;
+}
+
+/*content*/
+
+.b-img{
+    background-image: url("../mp/front.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+.welcome{
+    padding: 15%;
+    color: black;
+}
+
+.welcome span{
+    display: block;
+}
+
+.content{
+    text-align: center;
+    font-size: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 70px;
+}
+
+.reserve{
+    text-align: center;
+    justify-content: center;
+}
+
+/*footer*/
+.top-footer{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: black;
+    padding-block: 75px;
+}
+
+.about-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.about-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.service-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.service-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.media-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.media-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.app-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.app-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.sub-des{
+    color: white;
+    margin-block: 10px;
+}

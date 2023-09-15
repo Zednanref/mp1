@@ -1,0 +1,194 @@
+nav div{
+    background-color: black;
+    font-size: 20px;
+    gap: 50%;
+}
+
+.navbar{
+    text-align: center;
+    padding: 0px;
+}
+
+.container-fluid{
+    padding-inline: 15%;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-link{
+    color: white;
+}
+
+ul{
+    gap: 25px;
+}
+
+/*content*/
+
+.title{
+    text-align: center;
+    margin-block: 90px;
+}
+
+.title h1{
+    font-size: 70px;
+}
+
+.collection{
+    margin: 5% 15%;
+}
+
+.collection-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.collection-des{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*rooms*/
+
+.card{
+    border: 0px;
+}
+
+.rooms{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.rooms img{
+    width: 300px;
+    height: 300px;
+}
+
+.card-body{
+    padding-top: 50px;
+}
+
+.reserve-link{
+    text-align: right;
+}
+
+/*freebies*/
+
+.free{
+    margin: 5% 15%;
+}
+
+.free-title{
+    text-align: center;
+    font-size: 35px;
+    margin: 5%;
+}
+
+.spa{
+    display: flex;
+    gap: 20px;
+}
+
+.free-spa{
+    text-align: center;
+    font-size: 20px;
+    width: 20%;
+    margin-top: 12%;
+    margin-inline: 25% 5%;
+}
+
+.spa img{
+    height: 400px;
+    width: 400px;
+}
+
+.pool{
+    margin-top: 5%;
+}
+
+.free-pool{
+    text-align: center;
+    font-size: 40px;
+}
+
+.pool img{
+    height: 700px;
+    width: 100%;
+}
+
+/*footer*/
+
+.top-footer{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    background-color: black;
+    padding-block: 75px;
+}
+
+.about-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.about-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.service-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.service-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+
+.media-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.media-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.app-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.app-list{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-title{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.sub-des{
+    color: white;
+    margin-block: 10px;
+}
